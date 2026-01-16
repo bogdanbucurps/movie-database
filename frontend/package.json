@@ -1,0 +1,42 @@
+{
+	"name": "movie-database",
+	"version": "1.0.0",
+	"description": "Movie Database",
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"test": "vitest"
+	},
+	"dependencies": {
+		"@nuxt/image": "2.0.0",
+		"@primeuix/themes": "^2.0.2",
+		"@primevue/core": "^4.5.4",
+		"lodash": "^4.17.21",
+		"nuxt": "^4.2.2",
+		"primeicons": "^7.0.0",
+		"primevue": "^4.5.4",
+		"vue": "^3.5.26",
+		"vue-router": "^4.6.4"
+	},
+	"devDependencies": {
+		"@nuxt/eslint": "^1.12.1",
+		"@nuxt/test-utils": "^3.23.0",
+		"@primevue/nuxt-module": "^4.5.4",
+		"@types/lodash": "^4.17.23",
+		"@vitejs/plugin-vue": "^6.0.3",
+		"@vitest/ui": "^4.0.17",
+		"@vue/test-utils": "^2.4.6",
+		"autoprefixer": "^10.4.23",
+		"happy-dom": "^20.3.1",
+		"sass": "^1.97.2",
+		"vitest": "^4.0.17"
+	},
+	"trustedDependencies": [
+		"@parcel/watcher"
+	],
+	"packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
+}
